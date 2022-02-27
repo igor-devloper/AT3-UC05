@@ -11,23 +11,15 @@ Desenvolva um projeto em ASP.NET Core MVC com views, controllers e models (caso 
  
 1 - Elabore um layout baseado neste wireframe:
 
-<div aling="cente">
-  <img src="![img1](https://user-images.githubusercontent.com/92065382/155868119-b26a68c9-485c-4f5a-90bd-53b1602d7add.png)" alt="" width="150px">
-</div>
+
 2 - Elabore ações e views para as seguintes páginas:
 a) Index (página principal)
-<div aling="center">
-  <img src="![img2](https://user-images.githubusercontent.com/92065382/155868118-7614c784-fe96-40f6-9963-609084bbf025.png)" alt="" width="150px">
-</div>
+
 b) Serviços (lista de serviços da veterinária)
-<div aling="center">
-  <img src="![img3](https://user-images.githubusercontent.com/92065382/155868117-f67b38c6-787d-4617-9487-b816412a0936.png)" alt="" width="150px">
-</div>
+
 c) Pré-agendamento (PreAgendamento - formulário de agendamento de consulta)
  Ao clicar em Enviar, o usuário deve ser direcionado a uma página com as informações que ele digitou, confirmando o agendamento (wireframe não foi definido).
-<div aling="center">
-  <img src="![img4](https://user-images.githubusercontent.com/92065382/155868116-c1ad9119-edd2-4914-bd64-bd60e21fcbba.png" alt="" width="150px">
-</div>
+
 Teste a navegação e a funcionalidade do formulário e ajuste o que for necessário.
  
 
