@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vet Vida</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="topbar">
+                <img src="~/imagens/image1.png" alt="logo" class="logopng">
+                <a href="https://www.google.com/intl/pt-BR/account/about/">
+                    <img class="imglogin" src="~/imagens/Ellipse1.png" alt="logo">
+                </a>
+                
+                
+                <div>
+                    <ul class="menu">
+                        <li class="menu-item">
+                            <i class="fa fa-home" aria-hidden="true"></i>
+                            <a class="menu-link" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                        </li>
+
+                        <li class="menu-item">
+                            <i class="fa fa-shopping-bag" aria-hidden="true"></i>
+                            <a class="menu-link" asp-area="" asp-controller="Home" asp-action="Servicos">Serviços</a>
+                        </li>
+                        <li class="menu-item">
+                            <i class="fas fa-book" aria-hidden="true"></i>
+                            <a class="menu-link" asp-area="" asp-controller="Home" asp-action="PreAgendamento">Pré-Agendamento</a>
+                        </li>
+                    </ul>
+                    
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+    
+            <footer>
+            <div class="footer-content">
+                <p>
+                    Copyright &copy; 2022
+                </p>
+                <div class="social-list">
+                    <ul>
+                        <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+
+    
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+
+</html>

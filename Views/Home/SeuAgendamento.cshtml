@@ -1,0 +1,30 @@
+@using MVC.models
+@model List<ItemAgendamento>
+<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+
+<h3>Seu Pré-Agendamento</h3>
+<table>
+  <thead>
+    <tr>
+      <th>Nome</th>
+      <th>Numero</th>
+      <th>Data</th>
+      <th>Animal</th>
+      <th>Nescessidade</th>
+
+    </tr>
+  </thead>
+  <tbody>
+    @foreach (ItemAgendamento Ag in Model)
+    {
+      <tr>
+        <td>@Ag.Nome</td>
+        <td>@Ag.NumTelefone</td>
+        <td>@Ag.Data</td>
+        <td>@Ag.Animal</td>
+        <td>@Ag.Nescessidade</td>
+      </tr>
+    }
+  </tbody>
+</table>
+<br>
