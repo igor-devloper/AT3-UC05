@@ -196,12 +196,16 @@ footer {
 .img-wrapper {
   overflow: hidden;
   background-color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  height: 120vh;
 }
 .img-wrapper img {
   opacity: 0.5;
   width: 100%;
-  height: 80%;
+  height: 100%;
 }
+
+
 .banner {
   position: absolute;
   top: 30%;
@@ -210,9 +214,18 @@ footer {
 
 .banner h1 {
   color: #ededed;
-  font-size: 3.5rem;
+  font-size: 2.5rem;
   font-family: 'Roboto Condensed', serif;
-  font-weight: 200;
+  font-weight: 500;
+  text-shadow: .3rem .4rem 2px rgba(0, 0, 0, .4);
+  line-height: 3.5rem;
+  margin-bottom: 0.9rem;
+}
+.banner h2{
+  color: #ededed;
+  font-size: 2rem;
+  font-family: 'Roboto Condensed', serif;
+  font-weight: 500;
   text-shadow: .3rem .4rem 2px rgba(0, 0, 0, .4);
   line-height: 3.5rem;
   margin-bottom: 0.9rem;
@@ -221,9 +234,10 @@ footer {
 .banner p {
   font-family: 'Roboto Condensed', serif;
   color:#ededed;
-  font-size: 2rem;
+  font-size: 1.5rem;
   text-shadow: .3rem .4rem 2px rgba(0, 0, 0, .4);
-  margin-bottom: 4rem;
+  margin-top: 4rem;
+  width: 100%;
 }
 
 .banner button {
